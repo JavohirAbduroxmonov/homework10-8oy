@@ -21,7 +21,7 @@ export default function Header() {
             Logo
           </span>
         </Link>
-        <Button onClick={() => dispatch(openDrawer())}>Tanlanganlar</Button>
+        <Button onClick={() => dispatch(openDrawer())}>choose</Button>
       </div>
 
       <DrawerComponent handleClose={handleClose} />
